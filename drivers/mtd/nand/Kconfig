@@ -9,6 +9,7 @@ config SYS_NAND_SELF_INIT
 	  This option, if enabled, provides more flexible and linux-like
 	  NAND initialization process.
 
+if ARCH_UNIPHIER
 config NAND_DENALI
 	bool
 	select SYS_NAND_SELF_INIT
@@ -30,6 +31,8 @@ config NAND_DENALI_SPARE_AREA_SKIP_BYTES
 	  This option specifies the number of bytes to skip from the beginning
 	  of OOB area before last ECC sector data starts.  This is potentially
 	  used to preserve the bad block marker in the OOB area.
+
+endif
 
 config NAND_OMAP_GPMC
 	bool "Support OMAP GPMC NAND controller"
@@ -87,6 +90,7 @@ endchoice
 
 config NAND_PXA3XX
 	bool "Support for NAND on PXA3xx and Armada 370/XP/38x"
+	depends on ARCH_MVEBU
 	select SYS_NAND_SELF_INIT
 	imply CMD_NAND
 	help
@@ -123,6 +127,7 @@ endif
 
 config NAND_ARASAN
 	bool "Configure Arasan Nand"
+	depends on ARCH_ZYNQMP
 	imply CMD_NAND
 	help
 	  This enables Nand driver support for Arasan nand flash
@@ -147,6 +152,7 @@ config NAND_MXS
 
 config NAND_ZYNQ
 	bool "Support for Zynq Nand controller"
+	depends on ARCH_ZYNQ
 	select SYS_NAND_SELF_INIT
 	imply CMD_NAND
 	help
@@ -226,6 +232,7 @@ config SPL_NAND_AM33XX_BCH
 
 config SPL_NAND_DENALI
 	bool "Support Denali NAND controller for SPL"
+	depends on ARCH_UNIPHIER
 	help
 	  This is a small implementation of the Denali NAND controller
 	  for use on SPL.
