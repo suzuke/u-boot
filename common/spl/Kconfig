@@ -28,6 +28,14 @@ config SPL_LDSCRIPT
 	  U-Boot stage.	 Set this to the path of the linker-script to
 	  be used for SPL.
 
+config SPL_FRAMEWORK
+	bool "Enable SPL Framework"
+	default y
+	help
+	  Enable the SPL framework under common/.  This framework
+	  supports MMC, NAND and YMODEM loading of U-Boot and NAND
+	  NAND loading of the Linux Kernel.
+
 config SPL_BOARD_INIT
 	bool "Call board-specific initialization in SPL"
 	help

@@ -297,7 +297,6 @@
 /* Commands */
 
 /* SPL part */
-#define CONFIG_SPL_FRAMEWORK
 
 /* MMC support */
 #ifdef CONFIG_MMC_SDHCI_ZYNQ
