@@ -9,6 +9,18 @@ config SYS_NAND_SELF_INIT
 	  This option, if enabled, provides more flexible and linux-like
 	  NAND initialization process.
 
+config NAND_ATMEL
+	bool "Support Atmel NAND controller"
+	depends on ARCH_AT91
+	help
+	  This option enables the Atmel NAND controller on AT91 platforms 
+
+config NAND_DAVINCI
+	bool "Support Davinci NAND controller"
+	depends on ARCH_DAVINCI || ARCH_KEYSTONE
+	help
+	  This option enables the NAND controller on Davinci and Keystone platforms
+
 if ARCH_UNIPHIER
 config NAND_DENALI
 	bool

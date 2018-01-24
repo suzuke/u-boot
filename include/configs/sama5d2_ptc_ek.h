@@ -30,7 +30,6 @@
 
 /* NAND Flash */
 #ifdef CONFIG_CMD_NAND
-#define CONFIG_NAND_ATMEL
 #define CONFIG_SYS_NAND_BASE		ATMEL_BASE_CS3
 /* our ALE is AD21 */
 #define CONFIG_SYS_NAND_MASK_ALE	BIT(21)
