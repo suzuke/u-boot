@@ -2775,8 +2775,6 @@ FIT uImage format:
 		CONFIG_SPL_SKIP_RELOCATE
 		Avoid SPL relocation
 
-		CONFIG_SPL_NAND_BASE
-		Include nand_base.c in the SPL.  Requires
 		CONFIG_SPL_NAND_DRIVERS
 		SPL uses normal NAND drivers, not minimal drivers.
 
@@ -2787,10 +2785,6 @@ FIT uImage format:
 		CONFIG_SPL_UBI
 		Support for a lightweight UBI (fastmap) scanner and
 		loader
-
-		CONFIG_SPL_NAND_RAW_ONLY
-		Support to boot only raw u-boot.bin images. Use this only
-		if you need to save space.
 
 		CONFIG_SPL_COMMON_INIT_DDR
 		Set for common ddr init with serial presence detect in

@@ -254,10 +254,32 @@ config SPL_NAND_DRIVERS
 	help
 	  SPL uses normal NAND drivers, not minimal drivers.
 
+config SPL_NAND_BASE
+	bool "Enable NAND base in SPL"
+	depends on SPL_NAND_DRIVERS
+	help
+	  Include nand_base.c in the SPL.
+
+config SPL_NAND_LOAD
+	bool "Enable nand_spl_load"
+	help
+	  This is usually only needed with some Davinci devices.
+
 config SPL_NAND_ECC
 	bool "Enable SPL NAND ECC"
 	help
 	  Include standard software ECC in the SPL
+
+config SPL_NAND_SOFTECC
+	bool "Use Soft ECC in SPL"
+	help
+	  Use this option when a HW ECC isn't available
+
+config SPL_NAND_RAW_ONLY
+	bool "Only boot raw u-boot.bin images"
+	help
+	  Support to boot only raw u-boot.bin images. Use this only
+	  if you need to save space.
 
 config SPL_NAND_SIMPLE
 	bool "Use simple SPL NAND driver"
