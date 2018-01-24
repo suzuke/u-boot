@@ -249,6 +249,16 @@ config SPL_NAND_DENALI
 	  This is a small implementation of the Denali NAND controller
 	  for use on SPL.
 
+config SPL_NAND_DRIVERS
+	bool "SPL uses normal NAND drivers"
+	help
+	  SPL uses normal NAND drivers, not minimal drivers.
+
+config SPL_NAND_ECC
+	bool "Enable SPL NAND ECC"
+	help
+	  Include standard software ECC in the SPL
+
 config SPL_NAND_SIMPLE
 	bool "Use simple SPL NAND driver"
 	depends on !SPL_NAND_AM33XX_BCH
