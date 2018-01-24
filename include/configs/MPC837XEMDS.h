@@ -278,7 +278,6 @@
 /*
  * NAND Flash on the Local Bus
  */
-#define CONFIG_NAND_FSL_ELBC	1
 
 #define CONFIG_SYS_NAND_BASE	0xE0600000
 #define CONFIG_SYS_BR3_PRELIM	(CONFIG_SYS_NAND_BASE \

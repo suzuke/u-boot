@@ -109,7 +109,6 @@ extern unsigned long get_board_ddr_clk(unsigned long dummy);
 #define CONFIG_SYS_NAND_BASE2		0xef840000 /* Unused at this time */
 #define CONFIG_SYS_NAND_BASE_LIST	{CONFIG_SYS_NAND_BASE, \
 					 CONFIG_SYS_NAND_BASE2}
-#define CONFIG_NAND_FSL_ELBC
 
 /*
  * NOR flash configuration

@@ -46,6 +46,16 @@ config NAND_DENALI_SPARE_AREA_SKIP_BYTES
 
 endif
 
+config NAND_FSL_ELBC
+	bool "Support Freescale Enhanced Local Bus Controller FCM NAND driver"
+	help
+	  Enable this NAND controller if the FSL_ELBC is present
+
+config NAND_FSL_IFC
+	bool "Support Freescale Integrated Flash controller IFC"
+	help
+	  Enable this NAND controller if the FSL_IFC is present
+
 config NAND_OMAP_GPMC
 	bool "Support OMAP GPMC NAND controller"
 	depends on ARCH_OMAP2PLUS

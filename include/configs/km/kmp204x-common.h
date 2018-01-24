@@ -146,7 +146,6 @@ unsigned long get_board_sys_clk(unsigned long dummy);
 #define CONFIG_SYS_LBC_LCRR		(LCRR_CLKDIV_8 | LCRR_EADC_2)
 
 /* Nand Flash */
-#define CONFIG_NAND_FSL_ELBC
 #define CONFIG_SYS_NAND_BASE		0xffa00000
 #define CONFIG_SYS_NAND_BASE_PHYS	0xfffa00000ull
 

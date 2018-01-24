@@ -51,7 +51,6 @@
 #endif
 #endif
 
-#define CONFIG_NAND_FSL_ELBC
 #define CONFIG_SYS_NAND_MAX_ECCPOS	56
 #define CONFIG_SYS_NAND_MAX_OOBFREE	5
 

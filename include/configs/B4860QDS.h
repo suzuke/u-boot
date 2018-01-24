@@ -310,7 +310,6 @@ unsigned long get_board_ddr_clk(void);
 #define CONFIG_SYS_CS3_FTIM3		0x0
 
 /* NAND Flash on IFC */
-#define CONFIG_NAND_FSL_IFC
 #define CONFIG_SYS_NAND_MAX_ECCPOS	256
 #define CONFIG_SYS_NAND_MAX_OOBFREE	2
 #define CONFIG_SYS_NAND_BASE		0xff800000

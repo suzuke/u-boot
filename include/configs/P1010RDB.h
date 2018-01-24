@@ -12,7 +12,6 @@
 #define __CONFIG_H
 
 #include <asm/config_mpc85xx.h>
-#define CONFIG_NAND_FSL_IFC
 
 #ifdef CONFIG_SDCARD
 #define CONFIG_SPL_MMC_MINIMAL

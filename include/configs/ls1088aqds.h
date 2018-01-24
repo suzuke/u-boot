@@ -118,7 +118,6 @@ unsigned long get_board_ddr_clk(void);
 #endif
 #endif
 
-#define CONFIG_NAND_FSL_IFC
 #define CONFIG_SYS_NAND_MAX_ECCPOS	256
 #define CONFIG_SYS_NAND_MAX_OOBFREE	2
 
