@@ -89,7 +89,6 @@
  */
 #define CONFIG_SYS_NAND_BASE		0xef800000
 #define CONFIG_SYS_NAND_BASE2		0xef840000 /* Unused at this time */
-#define CONFIG_SYS_MAX_NAND_DEVICE	1
 #define CONFIG_NAND_ACTL
 #define CONFIG_SYS_NAND_ACTL_CLE	(1 << 3)	/* ADDR3 is CLE */
 #define CONFIG_SYS_NAND_ACTL_ALE	(1 << 4)	/* ADDR4 is ALE */

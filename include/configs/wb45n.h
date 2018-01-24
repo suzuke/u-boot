@@ -47,7 +47,6 @@
 
 /* NAND flash */
 #define CONFIG_NAND_ATMEL
-#define CONFIG_SYS_MAX_NAND_DEVICE  1
 #define CONFIG_SYS_NAND_BASE        0x40000000
 /* our ALE is AD21 */
 #define CONFIG_SYS_NAND_MASK_ALE    (1 << 21)

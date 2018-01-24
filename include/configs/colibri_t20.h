@@ -40,7 +40,6 @@
 
 /* NAND support */
 #define CONFIG_TEGRA_NAND
-#define CONFIG_SYS_MAX_NAND_DEVICE	1
 
 /* Dynamic MTD partition support */
 #define CONFIG_MTD_PARTITIONS

@@ -44,7 +44,6 @@
 
 /* NAND support */
 #define CONFIG_SYS_NAND_ONFI_DETECTION
-#define CONFIG_SYS_MAX_NAND_DEVICE	1
 #define CONFIG_SYS_NAND_BASE		NFC_BASE_ADDR
 
 /* Dynamic MTD partition support */

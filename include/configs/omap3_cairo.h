@@ -57,7 +57,6 @@
 /*
  * Board NAND Info.
  */
-#define CONFIG_SYS_MAX_NAND_DEVICE	1		/* Max number of NAND */
 							/* devices */
 #define CONFIG_EXTRA_ENV_SETTINGS \
 	"machid=ffffffff\0" \

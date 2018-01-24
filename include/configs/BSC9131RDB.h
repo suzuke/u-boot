@@ -180,7 +180,6 @@ extern unsigned long get_sdram_size(void);
 #define CONFIG_SYS_NAND_FTIM3		FTIM3_NAND_TWW(0x04)
 
 #define CONFIG_SYS_NAND_BASE_LIST	{ CONFIG_SYS_NAND_BASE }
-#define CONFIG_SYS_MAX_NAND_DEVICE	1
 #define CONFIG_SYS_NAND_BLOCK_SIZE	(128 * 1024)
 
 #define CONFIG_SYS_NAND_DDR_LAW		11

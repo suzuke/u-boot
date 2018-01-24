@@ -49,7 +49,6 @@
 
 #define CONFIG_NAND_ECC_BCH
 #define CONFIG_NAND_KMETER1
-#define CONFIG_SYS_MAX_NAND_DEVICE		1
 #define NAND_MAX_CHIPS				1
 
 /* include common defines/options for all 8309 Keymile boards */

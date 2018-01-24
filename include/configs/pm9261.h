@@ -166,7 +166,6 @@
 
 /* NAND flash */
 #define CONFIG_NAND_ATMEL
-#define CONFIG_SYS_MAX_NAND_DEVICE		1
 #define CONFIG_SYS_NAND_BASE			0x40000000
 #define CONFIG_SYS_NAND_DBW_8			1
 /* our ALE is AD22 */

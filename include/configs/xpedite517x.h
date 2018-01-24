@@ -111,7 +111,6 @@ extern unsigned long get_board_sys_clk(unsigned long dummy);
 #define CONFIG_SYS_NAND_BASE		0xef800000
 #define CONFIG_SYS_NAND_BASE2		0xef840000	/* Unused at this time */
 #define CONFIG_SYS_NAND_BASE_LIST 	{CONFIG_SYS_NAND_BASE, CONFIG_SYS_NAND_BASE2}
-#define CONFIG_SYS_MAX_NAND_DEVICE	2
 #define CONFIG_NAND_ACTL
 #define CONFIG_SYS_NAND_ACTL_ALE 	(1 << 14)	/* C_LA14 */
 #define CONFIG_SYS_NAND_ACTL_CLE 	(1 << 15)	/* C_LA15 */

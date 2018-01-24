@@ -181,7 +181,6 @@ MMCARGS
  * GPMC  block.  We support 1 device and the physical address to
  * access CS0 at is 0x8000000.
  */
-#define CONFIG_SYS_MAX_NAND_DEVICE	1
 #define CONFIG_SYS_NAND_BASE		0x8000000
 /* don't change OMAP_ELM, ECCSCHEME. ROM code only supports this */
 #define CONFIG_NAND_OMAP_ECCSCHEME	OMAP_ECC_BCH8_CODE_HW

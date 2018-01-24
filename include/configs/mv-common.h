@@ -105,9 +105,6 @@
 /*
  * Common NAND configuration
  */
-#ifdef CONFIG_CMD_NAND
-#define CONFIG_SYS_MAX_NAND_DEVICE     1
-#endif
 
 /*
  * Common SPI Flash configuration
